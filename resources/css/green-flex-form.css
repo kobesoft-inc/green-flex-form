@@ -1,0 +1,40 @@
+.green-flex-form-designer li {
+    position: relative;
+    background-color: inherit;
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: inherit;
+}
+
+.green-flex-form-designer li .fi-fo-builder-item-header {
+    position: absolute;
+    border: inherit;
+    padding: inherit;
+    width: 100%;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.green-flex-form-designer li:hover .fi-fo-builder-item-header {
+    visibility: visible;
+}
+
+.green-flex-form-designer li .fi-fo-builder-item-header ul:first-child {
+    margin-left: auto;
+}
+
+.green-flex-form-designer li .fi-fo-builder-item-header ul:last-child {
+    margin: inherit;
+}
+
+.green-flex-form-designer li .fi-fo-builder-item-content {
+    border: inherit;
+    padding: inherit;
+}
+
+/* add-betweenボタンの振る舞いを調節 */
+.green-flex-form-designer > ul > li:nth-child(2) > div {
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 8px;
+}

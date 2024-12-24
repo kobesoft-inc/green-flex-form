@@ -1,0 +1,22 @@
+{
+  "name": "kobesoft/green-flex-form",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Green\\FlexForm\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "filament/filament": "^3",
+    "laravel/framework": "^11",
+    "davidhsianturi/blade-bootstrap-icons": "^1.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Green\\FlexForm\\GreenFlexFormServiceProvider"
+      ]
+    }
+  }
+}
