@@ -9,7 +9,7 @@ green-flex-formは、ユーザーが自由にフォームをデザインでき�
 ## インストール
 
 ```shell
-npm install kobesoft/green-flex-form
+composer require kobesoft/green-flex-form
 ```
 
 ## 使い方
